@@ -1,6 +1,13 @@
+
+
+
+
 function Footer() {
+ 
+
+
   return (
-    <div>
+    <div  >
       <footer class="text-center text-start bg-dark text-light">
        
 

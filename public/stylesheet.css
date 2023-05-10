@@ -9,13 +9,13 @@
 }
 
 
-.container-xl{
+ #info {
 
-    border: 2px 5px 2px solid gray;
+    background-color: #fffefe9c;
 
 
 
-}
+} 
 
 
 
@@ -27,4 +27,7 @@ body {
 
 
 
+}
+.container-xl img{
+width: 22rem;
 }

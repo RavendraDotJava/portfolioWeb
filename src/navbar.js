@@ -1,19 +1,38 @@
+
+
 function Navbar() {
+ 
+
   return (
-    <nav className="navbar navbar-light bg-info ">
-      <div className="container-fluid ">
-        <a className="navbar-brand" href="http://www.google.com">
-          <img
-            src="/logo192.png"
-            alt=""
-            width="30"
-            height="24"
-            className="d-inline-block align-text-top"
-          />
-          Hi My Name is Ravendra Patel
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          Navbar
         </a>
-        <div className="spinner-grow" role="status">
-          <span className="visually-hidden">Loading...</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">
+              Home
+            </a>
+            <a class="nav-link" href="#">
+              Features
+            </a>
+            <a class="nav-link" href={<Navbar/>}>
+              Contact
+            </a>
+            <a class="nav-link">Disabled</a>
+          </div>
         </div>
       </div>
     </nav>
