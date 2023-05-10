@@ -9,10 +9,14 @@
 }
 
 
-.container-x {
-    width: 2rem;
-    height: 20rem;
+.container-xl{
+
+    border: 2px 5px 2px solid gray;
+
+
+
 }
+
 
 
 

@@ -7,6 +7,7 @@ import Navbar from "./navbar";
 import Bio from "./Bio";
 import Project from "./Projects";
 import Footer from "./Footer";
+import Achievements from "./Achievements";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -29,8 +30,14 @@ root.render(
         subtitle="Java Core, J2EE ,MYSQL"
         cardtext="A Student Management System (SMS) is a solution tool meant to collect, store, and manage all data created by a School/college, including a student's grades, attendance, interpersonal activity records, and so on."
       />
-      <Project />
+      <Project
+        image="https://www.nicepng.com/png/detail/246-2466222_school-management-system-school-management-system-png.png"
+        title="User Registration & login Module"
+        subtitle="JSP, MYSQL, HTML CSS, Bootstrap"
+        cardtext="User registration and login using j2EE and bootstrap html and css."
+      />
     </div>
+    <Achievements />
     <Footer />
   </React.StrictMode>
 );
