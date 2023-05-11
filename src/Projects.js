@@ -1,7 +1,7 @@
 function Project(props) {
   return (
     <>
-      <div className="card mx-3" style={{ width: "18rem" }}>
+      <div className="card mx-5 col" style={{ width: "18rem", minWidth:"auto" }}>
         <img src={props.image} class="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>

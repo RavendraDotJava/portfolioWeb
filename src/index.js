@@ -7,17 +7,6 @@ import Navbar from "./navbar";
 import Bio from "./Bio";
 import Project from "./Projects";
 import Footer from "./Footer";
-import Achievements from "./Achievements";
-
-
-
-
-
-
-
-
-
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,7 +15,10 @@ root.render(
     <App />
     <Bio />
     <div className="text-center lead display-5 my-5 ">Projects</div>
-    <div className="container text-center d-flex justify-content-center ">
+    <div
+      className="container-x margin-auto text-center  justify-content-center row "
+      style={{ margin: "auto", maxWidth: "fit-content" }}
+    >
       <Project
         image="https://play-lh.googleusercontent.com/pCQw51XRP4UPr-FCYDjvNnEpFa0HDGJjjLDldN3rmw4KkwhqPu0PZXE8EopmAxzH9mQ"
         title="WeatherWebApp "
@@ -47,8 +39,7 @@ root.render(
         cardtext="User registration and login using j2EE and bootstrap html and css."
       />
     </div>
-    <Achievements />
-    <Footer  />
+    <Footer />
   </React.StrictMode>
 );
 
