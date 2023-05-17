@@ -1,13 +1,11 @@
-
+import React from "react";
 
 function Navbar() {
- 
-
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-info shadow p-3 mb-5 bg-body-emphasis rounded">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          My Portfolio
+        <a class="navbar-brand" href="/index.html">
+          Ravendra Patel
         </a>
         <button
           class="navbar-toggler"
@@ -22,16 +20,13 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">
-              Home
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="https://github.com/RavendraDotJava?tab=repositories"
+            >
+              GitHub Page
             </a>
-            <a class="nav-link" href="#">
-              Features
-            </a>
-            <a class="nav-link" href={<Navbar/>}>
-              Contact
-            </a>
-            <a class="nav-link">Disabled</a>
           </div>
         </div>
       </div>

@@ -21,13 +21,7 @@ function Footer() {
                 <p></p>
               </div>
 
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">Skills</h6>
-                <p>Java Core</p>
-                <p>Java Advance-J2EE(Servlet,Jsp,JDBC)</p>
-                <p>Hibernate</p>
-                <p>MySQL</p>
-              </div>
+              
 
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 class="text-uppercase fw-bold mb-4">Contact</h6>

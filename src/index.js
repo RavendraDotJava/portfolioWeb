@@ -7,13 +7,30 @@ import Navbar from "./navbar";
 import Bio from "./Bio";
 import Project from "./Projects";
 import Footer from "./Footer";
+import Skills from "./Skills";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+   
+
     <Navbar />
     <App />
     <Bio />
+    <p className="text-center display-6">Skills</p>
+    <div
+      className="container text-center d-flex justify-content-center"
+      id="skillco">
+      <Skills skname="Java" url="java-icon.png" />
+
+      <Skills skname="JSP" url="jsp-icon.png" />
+      <Skills skname="Hibernate ORM" url="hibernate_icon.png" />
+      <Skills skname="HTML&CSS" url="html-css-icon.png" />
+      <Skills skname="Spring-boot" url="springboot.png" />
+      <Skills skname="MySQL" url="mysql-icon.png" />
+      <Skills skname="JavaScript" url="javascript.png" />
+      <Skills skname="Bootstrap" url="bootstrap-icon.png" />
+    </div>
     <div className="text-center lead display-5 my-5 ">Projects</div>
     <div
       className="container-x margin-auto text-center  justify-content-center row "
@@ -40,6 +57,8 @@ root.render(
       />
     </div>
     <Footer />
+
+    
   </React.StrictMode>
 );
 
